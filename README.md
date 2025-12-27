@@ -1,6 +1,14 @@
 # Mission-Pizza
 AI Pizza Ordering System using MCP + LangChain
 This project demonstrates how to build an AI-powered pizza ordering system using LangChain agents and an MCP-style tool server built with FastAPI.
+
+### Run the MCP Server (FastAPI)
+- #### uvicorn mcp.mcp_server:app --reload
+### Run the Agent
+ - #### python .\agents\pizza_orchestrator.py
+
+
+
 ## The agent can:
 - Take a pizza order from natural language
 - Ask follow-up questions (like delivery time)
@@ -76,7 +84,7 @@ README.md – Project documentation
 
 
 - Run the Agent
- - python .\agents\pizza_orchestrator.py
+ - ### python .\agents\pizza_orchestrator.py
 
 - Example input handled by the agent:
  - "I’d like to order a large Margherita at 8 pm"
