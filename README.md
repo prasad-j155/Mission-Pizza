@@ -60,13 +60,13 @@ README.md – Project documentation
 
 ## How to Run the Project
 - Install Dependencies-
-  - pip install -r requirements.txt
+  - ### pip install -r requirements.txt
   - Set Groq API Key (LLM)
     - set GROQ_API_KEY=your_api_key_here( i have called directly in the function, but that’s not recommended)
     - Groq is used because it provides free limited LLM calls, making it ideal for demos.
 
 ## Run the MCP Server (FastAPI)
-- uvicorn mcp.mcp_server:app --reload
+- ### uvicorn mcp.mcp_server:app --reload
 
 - This starts the tool server that exposes:
   - Place order
